@@ -14,10 +14,10 @@
 </configuration>
 ```
 
-### Report: </h3>
+### Report:
 Generate: `mvn allure:report` <p>
 Generate and open in browser: `mvn allure:serve`
 
 ### Docker:
-Build image: `docker build -t test-task-megogo-tests .`
+Build image: `docker build -t test-task-megogo-tests .` <p>
 Run image with tests: `docker run test-task-megogo-tests`

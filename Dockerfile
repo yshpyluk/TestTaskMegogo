@@ -1,6 +1,4 @@
-FROM openjdk:17
-
-RUN apt-get update && apt-get install -y maven
+FROM maven:3.8.3-openjdk-17
 
 WORKDIR /app
 

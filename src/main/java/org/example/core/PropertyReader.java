@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class PropertyReader {
 
-    private static String CONFIG_FILE_NAME = "config.properties";
+    private static final String CONFIG_FILE_NAME = "config.properties";
 
     public PropertiesEntity getProperties() {
         Properties properties = new Properties();
